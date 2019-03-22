@@ -1,0 +1,5 @@
+samplefact1(f1,b1).
+samplefact1(f2,b2).
+samplefact2(f1).
+samplefact3(m1,b2).
+samplefact3(m1,b3).

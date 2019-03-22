@@ -1,0 +1,14 @@
+setParam: treeDepth=4.
+setParam: nodeSize=2.
+setParam: numOfClauses=8.
+setParam: numOfCycles=8.
+
+mode: samplefact1(+Foo, -Bar).
+mode: samplefact1(-Foo, +Bar).
+
+mode: samplefact2(+Foo).
+
+mode: samplefact3(+Moo, -Bar).
+mode: samplefact3(-Moo, +Bar).
+
+mode: sampletarget(+Bar)
